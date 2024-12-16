@@ -9,7 +9,7 @@ public class Employee1 {
         department = department2;
     }
 
-    Employee1(String surname2, int age2) {
+    public Employee1(String surname2, int age2) {
         this(0, surname2, 22, 0.0, null);
     }
 

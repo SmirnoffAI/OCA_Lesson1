@@ -13,11 +13,8 @@ public class HomeWorkClass {
         return a + b;
     }
 
-    int sum(int a){
-        return a;
+    int sum(int a){return a;}
 
-
-    }
     int sum(){
         return 0;
     }
