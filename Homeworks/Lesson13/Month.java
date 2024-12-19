@@ -1,9 +1,9 @@
 package Homeworks.Lesson13;
 
 public class Month {
-    int mNum = 8;
+    static int mNum = 8;
 
-    void countDays(){
+    static void countDays(){
 
         int flag;
 
@@ -34,7 +34,6 @@ public class Month {
     }
 
     public static void main(String[] args) {
-        Month m1 = new Month();
-        m1.countDays();
+        Month.countDays();
     }
 }
