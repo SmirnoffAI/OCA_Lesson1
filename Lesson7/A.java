@@ -1,5 +1,7 @@
 package Lesson7;
 
+import Lesson6.Employee1.*;
+
 public class A {
     public static void main(String[] args) {
         // Класс А обращается к классу Б внутри пакета по имени.
