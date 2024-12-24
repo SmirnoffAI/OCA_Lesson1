@@ -8,18 +8,27 @@ public class TImer {
         OUTER:
         while (hours < 24) {
 
-            int minutes = 0;
+            int minutes = -1;
+
+            if (hours > 1 && minutes % 10 == 0) {
+                break;
+            }
+
             MIDDLE:
             do {
                 minutes++;
                 int seconds = 0;
+
+
                 INNER:
                 while (seconds < 60) {
                     System.out.println(hours + ":" + minutes + ":" + seconds);
                     seconds++;
                 }
+
             }
             while (minutes < 59);
+
             hours++;
 
         }
