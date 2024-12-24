@@ -57,6 +57,16 @@ public class StringMethods {
         String s9 = s7.concat(s8); // метод конкатенации.
         System.out.println(s9); // "Hello, friend".
 
+        String s10 = s1.toLowerCase(); // метод возвращает строку, приведенную к нижнему регистру.
+        System.out.println(s10); // aabbccbbcc
+
+        String s11 = s1.toUpperCase(); // метод возвращает строку, приведенную к верхнему регистру.
+        System.out.println(s11); // AABBCCBBCC
+
+        boolean b1 = s1.contains("Aa"); // метод contains -> boolean, метод проверяет, содержится ли переданная в качестве
+        // аргумента строка в исходной строке.
+        System.out.println(b1); // true
+
         
     }
 }
