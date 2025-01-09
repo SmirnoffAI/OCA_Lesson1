@@ -67,6 +67,5 @@ public class StringMethods {
         // аргумента строка в исходной строке.
         System.out.println(b1); // true
 
-        
     }
 }
