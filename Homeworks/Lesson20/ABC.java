@@ -10,7 +10,7 @@ public class ABC {
 
         // enhanced for loop пробегается по каждому элементу и проверяет, содержится ли он в списке.
         for (String s : args) {
-            if (!result.contains(s)) {
+            if (!result.contains(s)) { //
                 result.add(s);
             }
         }
